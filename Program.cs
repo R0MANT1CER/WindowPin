@@ -2,7 +2,7 @@
 using System.Drawing.Imaging;
 using System.Text;
 
-namespace 钉子;
+namespace WindowPin;
 
 internal static class Program
 {
@@ -158,3 +158,4 @@ internal class HotkeyHost : Form
             _ = NativeMethods.UnregisterHotKey(Handle, HOTKEY_ID);
     }
 }
+

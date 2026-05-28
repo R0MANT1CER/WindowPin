@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace 钉子;
+namespace WindowPin;
 
 internal static class NativeMethods
 {
@@ -123,3 +123,4 @@ internal static class NativeMethods
             0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE | SWP_NOACTIVATE);
     }
 }
+

@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing.Drawing2D;
 using System.Text;
 
-namespace 钉子;
+namespace WindowPin;
 
 public class PinForm : Form
 {
@@ -228,3 +228,4 @@ public class PinForm : Form
         base.OnClosing(e);
     }
 }
+
